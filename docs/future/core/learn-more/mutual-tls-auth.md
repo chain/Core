@@ -40,7 +40,7 @@ Setting the root CA certificate allows Chain Core to validate and authenticate r
 
 ## Java SDK
 
-The Java SDK's `Client` object exposes methods for mutual TLS configuraiton.
+The Java SDK's `Client` object exposes methods for mutual TLS configuration.
 
 #### Server authentication
 

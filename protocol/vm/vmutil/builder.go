@@ -66,7 +66,7 @@ func (b *Builder) AddJump(target int) *Builder {
 	return b.addJump(vm.OP_JUMP, target)
 }
 
-// AddJump adds a JUMPIF opcode whose target is the given target
+// AddJumpIf adds a JUMPIF opcode whose target is the given target
 // number. The actual program location of the target does not need to
 // be known yet, as long as SetJumpTarget is called before Build.
 func (b *Builder) AddJumpIf(target int) *Builder {

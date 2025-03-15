@@ -14,7 +14,7 @@ func init() {
 		callExpr)
 }
 
-// checkCall triggers the print-specific checks if the call invokes a print function.
+// checkLogCall triggers the print-specific checks if the call invokes a print function.
 func checkLogCall(f *File, node ast.Node) {
 	call, ok := node.(*ast.CallExpr)
 	if !ok {

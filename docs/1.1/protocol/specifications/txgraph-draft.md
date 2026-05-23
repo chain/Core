@@ -82,7 +82,7 @@ Where `hashable` is any type for which a hashing serialization is defined. See [
 **Rules:**
 
 1. witness must be empty
-2. Note: the body is a hash of the underlying data. The underlying data may not be known. If a transaction author wants to provide the underlying data, it must be done in the transport layer alongisde the actual transaction.
+2. Note: the body is a hash of the underlying data. The underlying data may not be known. If a transaction author wants to provide the underlying data, it must be done in the transport layer alongside the actual transaction.
 
 ### xxx specify hash function for underlying data (w/
 domain separation, prob)
